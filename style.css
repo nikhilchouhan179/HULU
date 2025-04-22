@@ -1,0 +1,992 @@
+*{
+    margin: 0;padding: 0;                
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/tvtime_cover.jpg);
+}
+.head-div{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.hulu-logo{
+    height: 25px;
+    margin-left: 20px;
+}
+.anch-login{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.package{
+    height: 280px;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.first-pack{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.img-disney{
+    height: 60px;
+    margin-bottom: 30px;
+}
+.first-pack h3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: "Sora", sans-serif;
+    text-align: center;
+
+}
+.first-pack p{
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: #15e783;
+    font-weight: 700;
+    font-family: "Sora", sans-serif;
+
+}
+.btn-firstpack{
+    width: 300px;
+    height: 35px;
+    border: none;
+    background-color: #15e783;
+    margin-top: 30px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+.second-pack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-disney1{
+    height: 60px; 
+    gap: 50px;
+    margin-top: 40px;
+}
+.second-pack p{
+    color: #15e783;
+    font-weight: 700;
+    font-family: "Sora", sans-serif;
+
+}
+.second-pack h3{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: "Sora", sans-serif;
+    text-align: center;
+}
+.btn-secondpack{
+    width: 300px;
+    height: 35px;
+    margin-top: 28px;
+    background-color: #15e783;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+}
+.div-anch{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.anch-terms{
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+.anch-signhulu{
+    color: white;
+    font-size: 20px;
+    font-family: "Sora", sans-serif;
+}
+.main-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div-arrow{
+    border: 1px solid white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 15px;
+}
+.p-vmp{
+    color: white;
+    margin-top: 50px;
+    font-family: "Sora", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+}
+.secdiv-head{
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(to top, #093028, #237a57); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.secdiv-head h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Sora", sans-serif;
+}
+.btn-build{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 280px;
+    height: 45px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-family: "Sora", sans-serif;
+    margin-top: 30px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+.movie-card{
+    background-color: #0b0c0f;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.includeplan{
+    color: #01ed82;
+    font-size: 15px;
+    font-family: "Sora", sans-serif;
+    margin-top: 100px;
+}
+.moviecard-head h1{
+    color: white;
+    font-family: "Sora", sans-serif;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.moviecard-head p{
+    color: white;
+    font-family: "Sora", sans-serif;
+    margin-top: 20px;
+}
+.main-moviecard{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 25px;
+}
+.main-movieA{
+    width: 20%;
+    height: 500px;
+    background-image: url(./assets/original\ \(1\).png);
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+.main-movieA h6{
+    color: white;
+    text-align: justify;
+    font-family: "Sora", sans-serif;
+
+}
+.main-movieA h3{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-size: 25px;
+}
+
+.main-movieB{
+    width: 20%;
+    height: 500px;
+    background-image: url(./assets/black.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.main-movieB h3{
+    color: white ;
+    font-family: "Sora", sans-serif;
+    font-size: 25px;
+
+}
+.main-movieB h6{
+    color: white;
+    font-family: "Sora", sans-serif;
+
+}
+.main-movieC{
+    width: 20%;
+    height: 500px;
+    background-image: url(./assets/horse.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.main-movieC h3{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-size: 25px;
+
+}
+.main-movieC h6{
+    color: white;
+    font-family: "Sora", sans-serif;
+
+}
+.main-movieD{
+    width: 20%;
+    height: 500px;
+    background-image: url(./assets/peoples.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.main-movieD h3{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-size: 25px;
+
+}
+.main-movieD h6{
+    color: white;
+    font-family: "Sora", sans-serif;
+
+}
+.div-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.457);
+    text-align: left;
+    border-radius: 10px;
+    
+}
+.moviecard-end{
+    width: 100%;
+    height: 100%;
+}
+.moviecard-end h1{
+    color: white;
+    font-family: "Sora", sans-serif;
+    margin-top: 20px;
+    font-size: 45px;
+
+}
+.para{
+    color: white ;
+    margin-top: 30px;
+    font-family: "Sora", sans-serif;
+
+}
+.btn-card{
+    width: 200px; 
+    height: 45px;
+    margin-top: 20px;
+    background-color: #15e783;
+    border: none;
+    font-weight: 700;
+    font-family: "Sora", sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.PARA{
+    color: white;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.anch-endmovie{
+    color: white;
+    padding-top: 20px;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+}
+.div-anchendmovie{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.arrow-right{
+    color: white;
+}
+.movieend-h6{
+    margin-top: 150px;
+    color: #15e783;
+    font-size: 15px;
+    font-family: "Sora", sans-serif;
+}
+.overlayend-end{
+    color: #bed0ca;
+    font-size: 10px;
+    font-family: "Sora", sans-serif;
+    text-align: end;
+    margin-top: 20px;
+    padding-right: 150px;
+}
+.third-maindiv{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/third\ background.jpeg);
+    background-size: cover;
+    padding-top: 200px;
+    /* padding-left: 150px; */
+}
+.innerthird-div{
+    /* background-color: pink; */
+    width: 500px;
+    height: 400px;
+    margin-right: 100px;
+    margin-left: 280px;
+}
+.thirdinner-head{
+    /* background-color: white; */
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 30px;
+    font-family: "Sora", sans-serif;
+}
+.third-anchA{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 12px;
+    border-bottom: 5px solid white;
+    height: 30px;
+}
+.third-anchB ,.third-anchC{
+    color: #839c90;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 12px;
+}
+.thirdinner-h1{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-size: 42px;
+    margin-top: 30px;
+}
+.thirdinner-p{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 20px;
+
+}
+.thirddiv-main{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+}
+.thirddiv-roundA{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+.third-imgA{
+    height: 25px;
+    width: 42px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.thirddiv-roundB{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+.third-imgB{
+    height: 25px;
+    width: 42px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.thirddiv-roundC{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+.third-imgC{
+    height: 25px;
+    width: 42px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.thirddiv-roundD{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+.third-imgD{
+    height: 25px;
+    width: 42px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.para-thirddiv{
+    color:  #839c90;
+    margin-top: 40px;
+    font-family: "Sora", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    
+}
+.anch-thirddivpara{
+    color: #839c90 ;
+    font-size: 10px;
+    font-family: "Sora", sans-serif;
+
+}
+.fourthdiv-main{
+    background-color: #0b0c0f;
+    width: 100vw;
+    /* height: 100vh; */
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fourthdiv-h1{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-size: 45px;
+    margin-top: 70px;
+}
+.fourthdiv-h4{
+    color: white;
+    font-family: "Sora", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;    
+}
+.fourthdiv-p{
+    color: white;
+    font-size: 20px;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+}
+.fourthinner-A{
+    border-top: 1px solid white;
+    width: 1000px;
+    margin-top: 120px;
+}
+.fourthdiv-rate{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #0b0c0f;
+    position: sticky;
+    top: 0;
+}
+.fourthrate-innerA{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fourthrate-innerB{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.fourthrate-innerC{
+    width: 30%;
+}
+.fourthinnerA-most{
+    width: 150px;
+    height: 25px;
+    background-color: #1ce783;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+}
+.fouthinnerA-h6{
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+}
+.fourthrate-p{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.fourthrate-p1{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: 15px;
+}
+.hululogo-fourthdiv{
+    width: 75px;
+    margin-top: 15px;
+}
+.btn-fourthrate{
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.fourthrate-pB{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    margin-top: 15px;
+    
+}
+.hululogo-fourthdivB{
+    width: 75px;
+    margin-top: 15px;
+
+}
+.fourthrate-p1B{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: 15px;
+
+}
+.btn-fourthrateB{
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+.divsA{
+    height: 70px;
+    width: 1000px;
+    margin-top: 30px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.divsA h6{
+    color: white;
+    font-size: 15px;
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+}
+.divsA-h6-divsC{
+    margin-right: 130px;
+}
+.divsA-h6-divsB{
+    margin-left: 50px;
+}
+.divsB{
+    /* height: 50px; */
+    width: 1000px;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.divsB h6{
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.divsB-h6-divsB{
+    margin-right: 185px;
+}
+.divsB-h6-divsC{
+    margin-right: 160px;
+}
+.divsB-h6-divsA{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.divsC{
+    width: 1000px;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.divsC h6{
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.divsC-h6-divsB{
+    margin-right: 150px;
+}
+.divsC-h6-divsC{
+    margin-right: 160px;
+}
+.divsC-h6-divsA{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.divsD{
+    width: 1000px;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.divsD h6{
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.divsD-h6-divsB{
+    margin-right: 150px;
+}
+.divsD-h6-divsC{
+    margin-right: 160px;
+}
+.divsD-h6-divsA{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.divsE{
+    width: 1000px;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.divsE h6{
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.divsE-h6-divsB{
+    margin-right: 180px;
+}
+.divsE-h6-divsC{
+    margin-right: 160px;
+}
+.divsE-h6-divsA{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.divsF{
+    width: 1000px;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.divsF h6{
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.divsF-h6-divsB{
+    margin-right: 45px;
+}
+.divsF-h6-divsC{
+    margin-right: 160px;
+}
+.divsF-h6-divsA{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.divsG{
+    width: 1000px;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.divsG h6{
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.divsG-h6-divsB{
+    margin-right: 180px;
+}
+.divsG-h6-divsC{
+    margin-right: 160px;
+}
+.divsG-h6-divsA{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.divsH{
+    width: 1000px;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.divsH h6{
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.divsH-h6-divsB{
+    margin-right: 90px;
+    font-weight: bold;
+}
+.divsH-h6-divsC{
+    margin-right: 160px;
+}
+.divsH-h6-divsA{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.divsI{
+    width: 1000px;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.divsI h6{
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.divsI-h6-divsB{
+    margin-right: 50px;
+    font-weight: bold;
+}
+.divsI-h6-divsC{
+    margin-right: 160px;
+}
+.divsI-h6-divsA{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.divs-semifinal{
+    width: 1000px;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.divs-h6-semifinal{
+    font-family: "Sora", sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.divs-final{
+    width: 1000px;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.divs-h1-final{
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer-maindiv{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e8eaed;
+}
+.ul-div{
+    width: 1050px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    padding-top: 70px;
+    border-bottom: 2px solid #D9DCE2;
+}
+.innerA-uldiv{
+    display: flex;
+    
+}
+.ulA a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-family: "Sora", sans-serif;
+    color: #586174;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.ulA-h4{
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.ulB{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 80px;
+    gap: 10px;
+}
+.aB{
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+    color: #586174;
+    font-size: 13px;
+}
+.ulC{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 40px;
+    gap: 10px;
+}
+.aC{
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+    color: #586174;
+    font-size: 13px;
+}
+.ulD{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 75px;
+    gap: 10px;
+}
+.aD{
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+    color: #586174;
+    font-size: 13px;
+}
+.ulE{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 15px;
+    gap: 10px;
+}
+.aE{
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+    color: #586174;
+    font-size: 13px;
+}
+.ulE-h4{
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.ulF{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 40px;
+    gap: 10px;
+}
+.aF{
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+    color: #586174;
+    font-size: 13px;
+}
+.ulF-h4{
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.fotter-icondiv{
+    width: 220px;
+    height: 90px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
